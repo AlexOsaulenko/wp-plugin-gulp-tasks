@@ -1,0 +1,19 @@
+{
+	"root": {
+		"pluginName": "jet-woo-builder/",
+		"pluginPath": "wp-content/plugins/",
+		"pluginTextDomain": "jet-woo-builder"
+	},
+	"rtl": {
+		"path": "assets/css/",
+		"source": "assets/css/jet-woo-builder.css",
+		"styleFileName": "jet-woo-builder-rtl.css",
+		"minify": true
+	},
+	"sass": {
+		"path": "assets/css/",
+		"watch": "assets/sass/**/*.scss",
+		"source": "assets/sass/jet-woo-builder.scss",
+		"minify": true
+	}
+}
