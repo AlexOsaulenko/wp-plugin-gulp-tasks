@@ -1,3 +1,5 @@
+var checktextdomain = require('gulp-checktextdomain');
+
 module.exports = function (gulp, plugins) {
 	return function () {
 		gulp.src(['**/*.php', '!framework/**/*.php'])

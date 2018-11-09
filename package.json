@@ -1,5 +1,5 @@
 {
-  "name": "wp theme",
+  "name": "wp plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,18 +9,21 @@
   "author": "sashko",
   "license": "ISC",
   "devDependencies": {
+    "gulp-replace": "^0.6.1"
+  },
+  "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-clean-css": "^3.9.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-checktextdomain": "^2.2.0",
+    "gulp-clean-css": "^3.10.0",
     "gulp-if": "^2.0.2",
-    "gulp-line-ending-corrector": "^1.0.2",
+    "gulp-line-ending-corrector": "^1.0.3",
     "gulp-load-plugins": "^1.5.0",
-    "gulp-notify": "^3.0.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.6.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-rtlcss": "^1.2.0"
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-rtlcss": "^1.3.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }

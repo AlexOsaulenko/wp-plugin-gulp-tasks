@@ -1,19 +1,19 @@
 {
 	"root": {
-		"pluginName": "jet-woo-builder/",
+		"pluginName": "jet-woo-product-gallery/",
 		"pluginPath": "wp-content/plugins/",
-		"pluginTextDomain": "jet-woo-builder"
+		"pluginTextDomain": "jet-woo-product-gallery"
 	},
 	"rtl": {
 		"path": "assets/css/",
-		"source": "assets/css/jet-woo-builder.css",
-		"styleFileName": "jet-woo-builder-rtl.css",
+		"source": "assets/css/jet-woo-product-gallery.css",
+		"styleFileName": "jet-woo-product-gallery-rtl.css",
 		"minify": true
 	},
 	"sass": {
 		"path": "assets/css/",
 		"watch": "assets/sass/**/*.scss",
-		"source": "assets/sass/jet-woo-builder.scss",
+		"source": "assets/sass/jet-woo-product-gallery.scss",
 		"minify": true
 	}
 }
