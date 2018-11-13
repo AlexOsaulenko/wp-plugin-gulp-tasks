@@ -1,7 +1,6 @@
 {
 	"root": {
 		"pluginName": "jet-woo-product-gallery/",
-		"pluginPath": "wp-content/plugins/",
 		"pluginTextDomain": "jet-woo-product-gallery"
 	},
 	"rtl": {
@@ -12,8 +11,8 @@
 	},
 	"sass": {
 		"path": "assets/css/",
-		"watch": "assets/sass/**/*.scss",
-		"source": "assets/sass/jet-woo-product-gallery.scss",
+		"watch": "assets/scss/**/*.scss",
+		"source": "assets/scss/jet-woo-product-gallery.scss",
 		"minify": true
 	}
 }

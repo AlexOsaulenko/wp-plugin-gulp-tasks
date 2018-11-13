@@ -1,6 +1,6 @@
 module.exports = function (gulp, plugins) {
 	return function () {
-		gulp.src(config.root.pluginPath + config.root.pluginName + config.rtl.source )
+		gulp.src( config.rtl.source )
 			.pipe( plugins.plumber( {
 				errorHandler: plugins.notify.onError( {
 					title: "SASS error", message: onError
@@ -8,7 +8,7 @@ module.exports = function (gulp, plugins) {
 			} ) )
 			.pipe(plugins.rtlcss())
 			.pipe( plugins.rename( config.rtl.styleFileName ) )
-			.pipe(gulp.dest(config.root.pluginPath + config.root.pluginName + config.rtl.path ))
+			.pipe(gulp.dest( config.rtl.path ))
 	};
 };
 

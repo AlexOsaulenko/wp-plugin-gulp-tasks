@@ -1,6 +1,6 @@
 module.exports = function ( gulp, plugins ) {
 	return function () {
-		gulp.src( config.root.pluginPath + config.root.pluginName + config.sass.source )
+		gulp.src( config.sass.source )
 			.pipe( plugins.plumber( {
 				errorHandler: plugins.notify.onError( {
 					title: "Sass compile error", message: onError
@@ -17,7 +17,7 @@ module.exports = function ( gulp, plugins ) {
 			.pipe( plugins.sourcemaps.write( "./" ) )
 			.pipe( plugins.lec( { eolc: 'CRLF', encoding: 'utf8' } ) )
 			.pipe( plugins.if( config.sass.minify, plugins.minify() ) )
-			.pipe( gulp.dest( config.root.pluginPath + config.root.pluginName + config.sass.path ) )
+			.pipe( gulp.dest( config.sass.path ) )
 
 	};
 };

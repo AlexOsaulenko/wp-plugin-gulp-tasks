@@ -18,5 +18,6 @@ gulp.task( 'check-text-domain', getTask( 'check-domain' ) );
 gulp.task( 'css-rtl', getTask( 'css-rtl' ) );
 
 gulp.task( 'default', [ 'sass' ], function () {
-	gulp.watch( config.root.pluginPath + config.root.pluginName + config.sass.watch, [ 'sass' ] );
+	console.log(config.root.pluginPath + config.root.pluginName + config.sass.watch);
+	gulp.watch( config.sass.watch, [ 'sass' ] );
 } );
